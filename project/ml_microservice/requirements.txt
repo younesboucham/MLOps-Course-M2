@@ -1,10 +1,21 @@
-fastapi
-uvicorn
-pydantic
-scikit-learn
-pandas
-numpy
-mlflow
-pytest
-flake8
-ruff
+# === Microservice ===
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# === Data science & ML ===
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.1
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# === MLOps & experiment tracking ===
+mlflow==2.12.1
+pyyaml==6.0.1
+seaborn==0.13.2
+
+# === Tests & qualité du code ===
+pytest==8.0.2
+flake8==7.0.0
+ruff==0.3.2
+httpx 
